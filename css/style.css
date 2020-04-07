@@ -1,0 +1,89 @@
+/* regole generali per sfondo */
+body{
+  width: 50%;
+  margin: auto;
+  background-image: url(../img/wood.jpg);
+}
+
+/* Impostazioni Header Superiore */
+.header{
+  color:white;
+}
+
+.header .gmaillog{
+  height: 100px;
+  vertical-align: middle;
+}
+
+.header .gmailtxt{
+  height: 100px;
+  font-size: 25px;
+}
+
+.margine{
+  margin-top: 0px;
+}
+/* Fine Impostazioni Header Superiore */
+
+/* Impostazioni Header Inferiore */
+#bottomhinfo {
+  margin-top: 5px;
+  color: white;
+  font-size: 25px;
+  line-height: 50px;
+  margin: 10px;
+}
+
+#numero {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  background-color: orange;
+}
+
+/* Fine Impostazioni Header Inferiore */
+
+/* Inizio Impostazini Mail */
+#emailcheck{
+  background-color: lightgrey;
+
+}
+#emailuncheck {
+  background-color: white;
+}
+
+.emaildist {
+  padding: 2px;
+  border: 1px solid black;
+
+}
+
+#color {
+  color: grey;
+}
+
+/* Fine Impostazioni Mail  */
+
+
+/*Impostazioni Footer */
+
+.footer {
+  color: white;
+  text-align: center;
+
+}
+
+.footer p{
+  font-style: italic;
+}
+
+.footer p .maker {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+/* Fine Impostazioni Footer */
